@@ -1,0 +1,65 @@
+/* Common */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Nav */
+nav ul{
+    list-style-type: none;
+    float: right;
+    position: fixed;
+    top: 20px;
+    right: 0;
+    z-index: 3;
+}
+nav li{
+    display: inline-block;
+    background-color: lightgray;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    vertical-align: center;
+    text-align: center;
+    margin-right: 20px;
+}
+nav li a{
+    text-decoration: none;
+    line-height: 50px;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+
+/* Main */
+
+.product-bg{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+.product-bg:first-child{
+    background-color: red;
+    color: yellow;
+}
+.product-bg:nth-child(2){
+    background-color: green;
+    color: yellow;
+}
+.product-bg:last-child{
+    background-color: yellow;
+    color: red;
+}
+.product-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-transform: uppercase;
+    z-index: 2;
+    font-size: 37px;
+}
