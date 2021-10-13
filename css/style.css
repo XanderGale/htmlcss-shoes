@@ -5,6 +5,10 @@
     box-sizing: border-box;
     font-family: 'Rubik Mono One', sans-serif;
 }
+img{
+    width: 100%;
+}
+
 
 /* Nav */
 nav ul{
@@ -62,4 +66,5 @@ nav li a{
     text-transform: uppercase;
     z-index: 2;
     font-size: 27px;
+    width: 40%;
 }
