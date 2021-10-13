@@ -21,13 +21,6 @@ nav ul{
 }
 nav li{
     display: inline-block;
-    background-color: lightgray;
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    vertical-align: center;
-    text-align: center;
-    margin-right: 20px;
 }
 nav li a{
     text-decoration: none;
@@ -35,6 +28,14 @@ nav li a{
     font-size: 30px;
     color: black;
     font-weight: bold;
+    display: inline-block;
+    margin-right: 20px;
+    background-color: lightgray;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    vertical-align: center;
+    text-align: center;
 }
 
 /* Main */
