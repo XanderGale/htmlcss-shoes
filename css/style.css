@@ -8,7 +8,9 @@
 img{
     width: 100%;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 
 /* Nav */
 nav ul{
